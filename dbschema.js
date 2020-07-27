@@ -22,6 +22,14 @@ let db = {
             likeCount: 5,
             commentCount: 2
         }
+    ],
+    comments: [
+        {
+            userhandle: 'user',
+            screamId: 'vhfbvjfdjkv0',
+            body: 'nice one mate!',
+            createdAt: 'some random data'
+        }
     ]
 };
 //#notes
