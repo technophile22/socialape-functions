@@ -88,7 +88,7 @@ exports.signup = (req, res) => {
        .then(token => {
           return res.json({token});
        })
-       .catch(err => {IN
+       .catch(err => {
 
           console.error(err);
           //auth/wrong-password
@@ -140,7 +140,7 @@ exports.signup = (req, res) => {
                userImage: doc.data().userImage,
                likeCount: doc.data().likeCount,
                commentCount: doc.data().commentCount,
-               sceramId: doc.id
+               screamId: doc.id
             })
          });
          return res.json(userData);
